@@ -2,15 +2,13 @@ author = "cydave"
 title = "PaperMod"
 base_url = "https://cydave.github.io/zola-theme-papermod"
 compile_sass = true
-build_search_index = true 
+build_search_index = true
 generate_feeds = true
-feed_filenames = [ "atom.xml",]
+feed_filenames = ["atom.xml"]
 minify_html = true
 
 
-taxonomies = [
-    { name = "tags", feed = true }
-]
+taxonomies = [{ name = "tags", feed = true }]
 
 [search]
 # Whether to include the title of the page/section in the index
@@ -50,6 +48,7 @@ show_post_nav_links = true
 show_post_meta = true
 default_toc_open = false
 show_post_edit_button = false
+show_archive_count = true
 edit_post_url = "https://github.com/cydave/zola-theme-papermod/tree/master"
 #copyright = ""
 date_format = "%Y-%m-%d"
@@ -57,7 +56,7 @@ navigation = [
     { url = "$BASE_URL/archive", title = "Archive" },
     { url = "$BASE_URL/tags", title = "Tags" },
     { url = "$BASE_URL/search", title = "Search" },
-    { url = "https://getzola.org/", title = "Zola", is_external = true }
+    { url = "https://getzola.org/", title = "Zola", is_external = true },
 ]
 
 home_title = "PaperMod"
